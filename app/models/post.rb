@@ -4,7 +4,7 @@ class Post < ActiveRecord::Base
 
   belongs_to :author
   validate :is_title_case 
-  
+  binding.pry
   before_save :make_title_case
 
   private
