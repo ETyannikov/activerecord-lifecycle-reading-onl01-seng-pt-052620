@@ -1,4 +1,5 @@
-require 
+require 'pry'
+
 class Post < ActiveRecord::Base
 
   belongs_to :author
